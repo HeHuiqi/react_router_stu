@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+
+import HqRouterProvider from './router';
+// import HqRouterProvider2 from './router2';
+
+
+
+const root = ReactDOM.createRoot(
+    document.getElementById('root') as HTMLElement
+);
+root.render(
+    <React.StrictMode>
+        <HqRouterProvider />
+        {/* <HqRouterProvider2 /> */}
+    </React.StrictMode>
+);

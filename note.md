@@ -1,0 +1,1 @@
+npm install  localforage match-sorter sort-by
